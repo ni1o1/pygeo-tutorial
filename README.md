@@ -13,5 +13,5 @@ Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1
 
 ## 教程目录
 
->[1-出租车数据的基础处理，由gps生成OD（pandas）](1-出租车数据的基础处理，由gps生成OD（pandas）.ipynb)  
+>[1-出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
 更新中。。。
