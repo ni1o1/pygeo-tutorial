@@ -14,7 +14,7 @@
 哇！太棒了！简直是读研、读博、设计院画图、数据分析、闲着没事、居家旅行时候都必须会的技能，别说800张图了，电脑空间有多少我就能生成多少图，包您满意
 
 通过本教程，你将会学会怎么对时空数据处理，到最后出下面的GIS图  
-<img src="resource/map-example.png" style="width:800px">
+<img src="resource/map-example.png" style="width:600px">
 
 
 # 学习本教程需要的基础
