@@ -2,7 +2,7 @@
 大数据时代到来，随着数据的逐步开放，数据工作者们或多或少都要接触到时空数据。  
 在处理时空数据的时候，你不仅要数据处理，还需要会GIS，最重要的是要出很好看的GIS图。  
   
-以前，我要用sql数据库处理数据，导出到excel画图标，再导出到arcgis出图，一套流程下来得开好几个软件，工作效率极低。  
+以前，我要用sql数据库处理数据，导出到excel画图表，再导出到arcgis出图，一套流程下来得开好几个软件，工作效率极低。  
 
 >上次老师跟我说：小旭啊，我们这个项目你给我出800张图吧，我这周五就要。这个其实画出来也没什么用，主要是想放我们项目文本的附录里显示我们的工作量  
 我当场把桌子掀起来，画你妹！老子这博不读了  
@@ -15,7 +15,7 @@
 
 通过本教程，你将会学会怎么对时空数据处理，用python的matplotlib包绘制下面的GIS图  
 <img src="resource/map-example.png" style="width:600px">
-
+<img src="resource/heatmap-example.png" style="width:600px">
 
 # 学习本教程需要的基础
 在学习本教程之前，强烈建议各位已经掌握了python的最基础的编程语法。如果你还没有掌握，下面建议你完成：
@@ -37,4 +37,5 @@ Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1
 >[1-出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
 [2-出租车数据的地理信息处理（geopandas）](2-taxigps_data_geo_processing(geopandas).ipynb)  
 [3-基于出租车GPS的OD期望线绘制与底图添加（plot_map）](3-taxigps_data_OD_plot.ipynb)  
+[4-绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot)  
 更新中。。。
