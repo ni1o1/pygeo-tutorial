@@ -1,3 +1,12 @@
+# 教程目录
+
+>[1-出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
+[2-出租车数据的地理信息处理（geopandas）](2-taxigps_data_geo_processing(geopandas).ipynb)  
+[3-基于出租车GPS的OD期望线绘制与底图添加（plot_map）](3-taxigps_data_OD_plot.ipynb)  
+[4-绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot.ipynb)  
+[5-爬虫爬API抓取行政区划](5-api_get_xzqh.ipynb)  
+更新中。。。
+
 # 教程说明
 大数据时代到来，随着数据的逐步开放，数据工作者们或多或少都要接触到时空数据。  
 在处理时空数据的时候，你不仅要数据处理，还需要会GIS，最重要的是要出很好看的GIS图。  
@@ -32,11 +41,3 @@ Taxi GPS Data Format: 22223,2013-10-22 08:49:25,114.116631,22.582466,0
 Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1-with passengers & 0-with passengers;  
     
 
-# 教程目录
-
->[1-出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
-[2-出租车数据的地理信息处理（geopandas）](2-taxigps_data_geo_processing(geopandas).ipynb)  
-[3-基于出租车GPS的OD期望线绘制与底图添加（plot_map）](3-taxigps_data_OD_plot.ipynb)  
-[4-绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot.ipynb)  
-[5-爬虫爬API抓取行政区划](5-api_get_xzqh.ipynb)  
-更新中。。。
