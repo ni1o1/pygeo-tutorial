@@ -6,6 +6,7 @@
 [4-绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot.ipynb)  
 [5-爬虫爬API抓取行政区划](5-api_get_xzqh.ipynb)  
 [6-基于folium的可交互地图可视化(folium)](6-folium.ipynb)  
+[7-结构化数据的存储及处理的思维训练(理论课)](7-structure.ipynb)  
 更新中。。。
 
 # 教程说明
