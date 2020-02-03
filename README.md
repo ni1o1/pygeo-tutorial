@@ -41,10 +41,15 @@
 
 [小甲鱼的python入门视频（看到35P）](https://www.bilibili.com/video/av27789609?from=search&seid=5111701058031824734)  
 
+另外，推荐课程：
+
+1. [imooc的Python数据分析-基础技术篇教程](https://www.imooc.com/learn/843)
+2. [udacity的数据分析入门课程](https://classroom.udacity.com/courses/ud170/)
+3. [coursera的机器学习课程](https://www.coursera.org/learn/machine-learning)
+4. [莫烦PYTHON的pytorch动态神经网络课程](https://morvanzhou.github.io/tutorials/machine-learning/torch/)
 
 # 使用数据
-用python分析时空数据的教程
-数据来源：  
+本教程的数据来源：  
 [深圳出租车数据](https://www.cs.rutgers.edu/~dz220/data.html)  
 Urban Data Release V2  
 Taxi GPS Data Format: 22223,2013-10-22 08:49:25,114.116631,22.582466,0  
