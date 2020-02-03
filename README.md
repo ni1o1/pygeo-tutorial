@@ -1,20 +1,20 @@
 # 如何使用本教程
 本教程是在python的Jupyter notebook上编写，有些python的基础环境需要配置：  
->1.Python环境: Python3.6/3.7均可，这里推荐装一个Anaconda，点击[这个链接](https://www.anaconda.com/distribution/)下载安装(Python是个编程语言，Anaconda是一个打包了数据分析常用功能的Python平台，安装Anaconda就已经包含Python本体)  
-2.把本教程搞到本地，点击本网页右上角的Clone or download，用git clone或者直接Download ZIP下载到本地。  
-3.安装本教程最核心的包：Python的geopandas包，点击[这个链接](https://geopandas.readthedocs.io/en/latest/install.html)，按照上面的方法安装（实测用里面的Installing from source的方法安装是最稳的，也就是pip install git+git://github.com/geopandas/geopandas.git这个命令）。  
-4.打开教程，enjoy！
+1. Python环境: Python3.6/3.7均可，这里推荐装一个Anaconda，点击[这个链接](https://www.anaconda.com/distribution/)下载安装(Python是个编程语言，Anaconda是一个打包了数据分析常用功能的Python平台，安装Anaconda就已经包含Python本体)关于如何使用anaconda的Jupyter notebook可以看[这个链接](https://www.jianshu.com/p/cddcb1cb051d)  
+2. 把本教程搞到本地，点击本网页右上角的Clone or download，用git clone或者直接Download ZIP下载到本地。  
+* 安装本教程最核心的包：Python的geopandas包，点击[这个链接](https://geopandas.readthedocs.io/en/latest/install.html)，按照上面的方法安装（实测用里面的Installing from source的方法安装是最稳的，也就是pip install git+git://github.com/geopandas/geopandas.git这个命令）。  
+* 打开教程，enjoy！
 
 # 教程目录
 
->[1-出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
-[2-出租车数据的地理信息处理（geopandas）](2-taxigps_data_geo_processing(geopandas).ipynb)  
-[3-基于出租车GPS的OD期望线绘制与底图添加（plot_map）](3-taxigps_data_OD_plot.ipynb)  
-[4-绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot.ipynb)  
-[5-爬虫爬API抓取行政区划](5-api_get_xzqh.ipynb)  
-[6-基于folium的可交互地图可视化(folium)](6-folium.ipynb)  
-[7-结构化数据的存储及处理的思维训练(理论课)](7-structure.ipynb)  
-[8-实战项目：怎么当一个优秀的出租车手](8-project.ipynb)  
+1. [出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
+* [出租车数据的地理信息处理（geopandas）](2-taxigps_data_geo_processing(geopandas).ipynb)  
+* [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](3-taxigps_data_OD_plot.ipynb)  
+* [绘制数据分布的散点图和热力图（contourf）](4-scatterplot-contourfplot.ipynb)  
+* [爬虫爬API抓取行政区划](5-api_get_xzqh.ipynb)  
+* [基于folium的可交互地图可视化(folium)](6-folium.ipynb)  
+* [结构化数据的存储及处理的思维训练(理论课)](7-structure.ipynb)  
+* [实战项目：怎么当一个优秀的出租车手](8-project.ipynb)  
 
 # 教程说明
 大数据时代到来，随着数据的逐步开放，数据工作者们或多或少都要接触到时空数据。  
