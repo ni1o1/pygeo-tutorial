@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/guangdong.js"></script>
+
+</head>
+<body>
+    <div id="1801377264ed4b38ac0ee0dd08a53e9b" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1801377264ed4b38ac0ee0dd08a53e9b = echarts.init(
+            document.getElementById('1801377264ed4b38ac0ee0dd08a53e9b'), 'white', {renderer: 'canvas'});
+        var option_1801377264ed4b38ac0ee0dd08a53e9b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u786e\u8bca",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            "mapType": "\u5e7f\u4e1c",
+            "data": [
+                {
+                    "name": "\u6df1\u5733\u5e02",
+                    "value": 400
+                },
+                {
+                    "name": "\u5e7f\u5dde\u5e02",
+                    "value": 328
+                },
+                {
+                    "name": "\u73e0\u6d77\u5e02",
+                    "value": 91
+                },
+                {
+                    "name": "\u4f5b\u5c71\u5e02",
+                    "value": 82
+                },
+                {
+                    "name": "\u4e1c\u839e\u5e02",
+                    "value": 73
+                },
+                {
+                    "name": "\u4e2d\u5c71\u5e02",
+                    "value": 64
+                },
+                {
+                    "name": "\u60e0\u5dde\u5e02",
+                    "value": 56
+                },
+                {
+                    "name": "\u6c55\u5934\u5e02",
+                    "value": 25
+                },
+                {
+                    "name": "\u6c5f\u95e8\u5e02",
+                    "value": 22
+                },
+                {
+                    "name": "\u6e5b\u6c5f\u5e02",
+                    "value": 22
+                },
+                {
+                    "name": "\u8087\u5e86\u5e02",
+                    "value": 17
+                },
+                {
+                    "name": "\u6885\u5dde\u5e02",
+                    "value": 14
+                },
+                {
+                    "name": "\u8302\u540d\u5e02",
+                    "value": 13
+                },
+                {
+                    "name": "\u9633\u6c5f\u5e02",
+                    "value": 13
+                },
+                {
+                    "name": "\u6e05\u8fdc\u5e02",
+                    "value": 12
+                },
+                {
+                    "name": "\u97f6\u5173\u5e02",
+                    "value": 8
+                },
+                {
+                    "name": "\u63ed\u9633\u5e02",
+                    "value": 8
+                },
+                {
+                    "name": "\u6c55\u5c3e\u5e02",
+                    "value": 5
+                },
+                {
+                    "name": "\u6f6e\u5dde\u5e02",
+                    "value": 5
+                },
+                {
+                    "name": "\u6cb3\u6e90\u5e02",
+                    "value": 3
+                },
+                {
+                    "name": "\u5730\u533a\u5f85\u786e\u8ba4\u5e02",
+                    "value": 0
+                }
+            ],
+            "roam": false,
+            "zoom": 1.2,
+            "showLegendSymbol": false,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u786e\u8bca"
+            ],
+            "selected": {
+                "\u786e\u8bca": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u5e7f\u4e1c\u75ab\u60c5\u5730\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#b4e0f3",
+                "#70b4eb",
+                "#1482e5",
+                "#1c3fbf",
+                "#070093"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 200,
+                "label": "200\u4eba\u4ee5\u4e0a"
+            },
+            {
+                "min": 100,
+                "max": 199,
+                "label": "100-199\u4eba"
+            },
+            {
+                "min": 50,
+                "max": 99,
+                "label": "50-99\u4eba"
+            },
+            {
+                "min": 10,
+                "max": 49,
+                "label": "10-49\u4eba"
+            },
+            {
+                "min": 1,
+                "max": 9,
+                "label": "1-9\u4eba"
+            }
+        ]
+    }
+};
+        chart_1801377264ed4b38ac0ee0dd08a53e9b.setOption(option_1801377264ed4b38ac0ee0dd08a53e9b);
+    </script>
+</body>
+</html>
