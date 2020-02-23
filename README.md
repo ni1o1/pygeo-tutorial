@@ -1,4 +1,4 @@
-中文|[English](README - en.md)
+中文 | [English](README - en.md)
 # 如何使用本教程
 本教程是在python的Jupyter notebook上编写，有些python的基础环境需要配置：  
 1. Python环境: Python3.6/3.7均可，这里推荐装一个Anaconda，点击[这个链接](https://www.anaconda.com/distribution/)下载安装(Python是个编程语言，Anaconda是一个打包了数据分析常用功能的Python平台，安装Anaconda就已经包含Python本体)  
