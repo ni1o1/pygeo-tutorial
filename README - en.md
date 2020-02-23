@@ -1,4 +1,4 @@
-(中文)[README.md]|English
+[中文](README.md)|English
 # How to use this tutorial
 This tutorial is written on the jupyter notebook of Python. Some basic environments of Python need to be configured:
 1. Python environment: Python 3.6 / 3.7 can be used. It is recommended to install an Anaconda here. Click [this link](https://www.anaconda.com/distribution/) to download and install (Python is a programming language, anaconda is a python platform that packs common functions of data analysis. Installing Anaconda already include Python)
