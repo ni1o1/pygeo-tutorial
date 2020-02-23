@@ -29,9 +29,9 @@ Yes! Data processing is an art! When dealing with spatiotemporal data, you need 
   
 Before I learn how to use python, I used to use SQL database to process data, export it to Excel to draw charts, and then export it to ArcGIS to draw maps. A set of process has several software, and the work efficiency is very low.
 
->Last time, the teacher said to me: Xiao Xu, please give me 800 figures for this project. I need them this Friday. In fact, it's useless to draw this. It's mainly to show our workload in the appendix of our project text.
-I flipped the table and said: Draw these by yourself, I quit!
-No, it's a dream. The reality is: I smile and say, ok, I will draw all night
+>Last time, the teacher said to me: Xiao Xu, please give me 800 figures for this project. I need them this Friday. In fact, it's useless to draw this. It's mainly to show our workload in the appendix of our project text.  
+I flipped the table and said: Draw these by yourself, I quit!  
+No, it's a dream. The reality is: I smile and say, ok, I will draw all night  
 
 
 Now, we have python. With the pandas, geopandas, and Matplotlib packages in Python, you use Python to realize batch calculation of data, batch production of GIS maps, and so on. 
