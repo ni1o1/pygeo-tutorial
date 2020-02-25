@@ -6,7 +6,7 @@
 1. Python环境: Python3.6/3.7均可，这里推荐装一个Anaconda，点击[这个链接](https://www.anaconda.com/distribution/)下载安装(Python是个编程语言，Anaconda是一个打包了数据分析常用功能的Python平台，安装Anaconda就已经包含Python本体)  
 关于如何使用anaconda的Jupyter notebook可以看[这个链接](https://blog.csdn.net/m0_37438418/article/details/80620190)  
 2. 把本教程搞到本地，点击本网页右上角的Clone or download，用git clone或者直接Download ZIP下载到本地。  
-3. 安装本教程最核心的包：Python的geopandas包，点击[这个链接](https://geopandas.readthedocs.io/en/latest/install.html)，按照上面的方法安装（实测用里面的Installing from source的方法安装是最稳的，也就是pip install git+git://github.com/geopandas/geopandas.git这个命令）。  
+3. 安装本教程最核心的包：Python的geopandas包，点击[这个链接](https://geopandas.readthedocs.io/en/latest/install.html#installing-from-source)，按照上面的方法安装（比较推荐里面的Installing from source的方法安装）。  
 4. 打开教程，enjoy！
 
 # 教程目录

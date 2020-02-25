@@ -6,7 +6,7 @@ This tutorial is written on the jupyter notebook of Python. Some basic environme
 1. Python environment: Python 3.6 / 3.7 can be used. It is recommended to install an Anaconda here. Click [this link](https://www.anaconda.com/distribution/) to download and install (Python is a programming language, anaconda is a python platform that packs common functions of data analysis. Installing Anaconda already include Python)
 See [this link](https://blog.csdn.net/m0_37438418/article/details/80620190) for how to use Anaconda's jupyter notebook
 2. Download this tutorial to local, click clone or download in the upper right corner of this page, and use git clone or download zip to download to local.
-3. Install the core package of this tutorial: Python's geopandas package. Click [this link](https://geopandas.readthedocs.io/en/latest/install.html) to install according to the above method (actually, the installation from source method is the most stable, that is, PIP install git + git://github.com/geopandas/geopandas.git).
+3. Install the core package of this tutorial: Python's geopandas package. Click [this link](https://geopandas.readthedocs.io/en/latest/install.html#installing-from-source) to install a (actually, I recommend the installation from source method).
 4. Open the tutorial, enjoy!
 
 # Catalog
