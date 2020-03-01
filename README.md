@@ -1,5 +1,5 @@
 
-[English](https://github.com/ni1o1/pygeo-tutorial/blob/master/README%20-%20en.md)
+[English](README%20-%20en.md)
 
 # 如何使用本教程
 本教程是在python的Jupyter notebook上编写，有些python的基础环境需要配置：  
