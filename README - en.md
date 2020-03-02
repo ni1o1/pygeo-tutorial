@@ -16,6 +16,7 @@ See [this link](https://blog.csdn.net/m0_37438418/article/details/80620190) for 
 [3 Gis processing of taxi GPS data - geopandas](3-taxigps_data_geo_processing_en.ipynb)    
 [4 Match grid OD to administrative units and plot map background - plot_map](4-taxigps_data_OD_plot_en.ipynb)    
 [5 The scatter and heatmap plot of data distribution - contourf](5-scatterplot-contourfplot_en.ipynb)    
+[6 How to deal with a complicate data processing tasks? - theoretical](6-structure_en.ipynb)    
 
 
 # About this tutorial
