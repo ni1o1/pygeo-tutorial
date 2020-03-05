@@ -21,6 +21,9 @@
 8. [基于folium的可交互地图可视化(folium)](8-folium.ipynb)  
 9. [基于pyecharts的可交互可视化(pyecharts)](9-pyecharts_tutorial.ipynb)  
 10. [实战项目：怎么当一个优秀的出租车手](10-project.ipynb)  
+  
+学术课：  
+11. [主成分分析PCA的原理、实现、缺陷及改进](11-PCA.ipynb)  
 
 # 教程说明
 大数据时代到来，随着数据的逐步开放，数据工作者们或多或少都要接触到时空数据。  
