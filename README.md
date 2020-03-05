@@ -24,7 +24,7 @@
   
 学术课：  
 11. [主成分分析PCA的原理、实现、缺陷及改进](11-PCA.ipynb)  
-12. OD矩阵降维SVD(施工中)
+12. OD矩阵降维SVD(施工中)  
 13. [谱聚类的原理及实现](13-Spectral_Clustering.ipynb)  
 14. [基于自表达性的深度子空间聚类](14-DSC.ipynb)
 
