@@ -17,7 +17,7 @@ See [this link](https://blog.csdn.net/m0_37438418/article/details/80620190) for 
 [4 Match grid OD to administrative units and plot map background - plot_map](4-taxigps_data_OD_plot_en.ipynb)    
 [5 The scatter and heatmap plot of data distribution - contourf](5-scatterplot-contourfplot_en.ipynb)    
 [6 How to deal with a complicate data processing tasks? - theoretical](6-structure_en.ipynb)    
-
+[7 Use folium to visualize map](8-folium_en.ipynb)    
 
 # About this tutorial
 With the coming of the era of big data and with the gradual opening of data, data workers are more or less facing spatiotemporal data.
