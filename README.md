@@ -1,5 +1,8 @@
 
-[English](README%20-%20en.md)
+[English](README%20-%20en.md)  
+本教程的github地址：https://github.com/ni1o1/pygeo-tutorial  
+本教程的gitee地址(国内访问快)：https://gitee.com/ni1o1/pygeo-tutorial  
+由于网速或者各种问题，网页打开本教程可能会出现图片或文件显示不能，因此建议各位下载教程到本地后用jupyter notebook打开教程观看  
 
 # 如何使用本教程
 本教程是在python的Jupyter notebook上编写，有些python的基础环境需要配置：  
