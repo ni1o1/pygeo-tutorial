@@ -52,13 +52,20 @@ def getImageCluster( lon_deg,lat_deg,   delta_long, delta_lat,zoom,style,apikey 
     
     def get_img(smurl,zoom, xtile, ytile,imgsize):
         try:
-            imgurl=smurl.format(zoom, xtile, ytile)
-            #print("Opening: " + imgurl)
-            imgstr = urllib.request.urlopen(imgurl).read()
-            tile = Image.open(io.BytesIO(imgstr))
-            Cluster.paste(tile, box=((xtile-xmin)*imgsize ,  (ytile-ymin)*imgsize))
+            t = 0
+            while t<10:
+                try:
+                    imgurl=smurl.format(zoom, xtile, ytile)
+                    #print("Opening: " + imgurl)
+                    imgstr = urllib.request.urlopen(imgurl,timeout = 6).read()
+                    tile = Image.open(io.BytesIO(imgstr))
+                    Cluster.paste(tile, box=((xtile-xmin)*imgsize ,  (ytile-ymin)*imgsize))
+                    t = 10
+                except:
+                    print('Get map tile failed, retry ',t)
+                    t += 1
         except: 
-            #print("Couldn't download image")
+            print("Couldn't download image")
             tile = None
 
     imgsize = 256
