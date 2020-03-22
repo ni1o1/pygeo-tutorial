@@ -14,23 +14,22 @@
 
 # 教程目录
 
-1. [出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od(pandas).ipynb)  
-2. [出租车数据的集计与基础图表绘制（matplotlib）](2-plot_figures_by_matplotlib_and_seaborn.ipynb)
-3. [出租车数据的地理信息处理（geopandas）](3-taxigps_data_geo_processing(geopandas).ipynb)  
-4. [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](4-taxigps_data_OD_plot.ipynb)  
-5. [绘制数据分布的散点图和热力图（contourf）](5-scatterplot-contourfplot.ipynb)  
-6. [结构化数据的存储及处理的思维训练(理论课)](6-structure.ipynb)  
-7. [爬虫爬API抓取行政区划（urllib）](7-api_get_xzqh.ipynb)  
-7.5. [抓抓抓包！用百度迁徙数据计算人口恢复率](7.5-抓抓抓包！用百度迁徙数据计算人口恢复率.ipynb)  
-8. [基于folium的可交互地图可视化(folium)](8-folium.ipynb)  
-9. [基于pyecharts的可交互可视化(pyecharts)](9-pyecharts_tutorial.ipynb)  
-10. [实战项目：怎么当一个优秀的出租车手](10-project.ipynb)  
+1. [出租车数据的基础处理，由gps生成OD（pandas）](1-出租车数据的基础处理，由gps生成OD（pandas）.ipynb)  
+2. [出租车数据的集计与基础图表绘制（matplotlib）](2-出租车数据的集计与基础图表绘制（matplotlib）.ipynb)
+3. [出租车数据的地理信息处理（geopandas）](3-出租车数据的地理信息处理（geopandas）.ipynb)  
+4. [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](4-基于出租车GPS的OD期望线绘制与底图添加（plot_map）.ipynb)  
+5. [绘制数据分布的散点图和热力图（contourf）](5-绘制数据分布的散点图和热力图（contourf）.ipynb)  
+6. [结构化数据的存储及处理的思维训练(理论课)](6-结构化数据的存储及处理的思维训练(理论课).ipynb)  
+7. [爬虫爬API抓取行政区划（urllib）](7-爬虫爬API抓取行政区划（urllib）.ipynb)  
+8. [抓抓抓包！用百度迁徙数据计算人口恢复率](8-抓抓抓包！用百度迁徙数据计算人口恢复率.ipynb)  
+9. [基于folium的可交互地图可视化(folium)](9-基于folium的可交互地图可视化(folium).ipynb)  
+10. [基于pyecharts的可交互可视化(pyecharts)](10-基于pyecharts的可交互可视化(pyecharts).ipynb)  
+11. [实战项目：怎么当一个优秀的出租车手](11-实战项目：怎么当一个优秀的出租车手.ipynb)  
   
 学术课：  
-11. [主成分分析PCA的原理、实现、缺陷及改进](11-PCA.ipynb)  
-12. OD矩阵降维SVD(施工中)  
-13. [谱聚类的原理及实现](13-Spectral_Clustering.ipynb)  
-14. [基于自表达性的深度子空间聚类](14-DSC.ipynb)
+12. [主成分分析PCA的原理、实现、缺陷及改进](12-主成分分析PCA的原理、实现、缺陷及改进.ipynb)  
+13. [谱聚类的原理及实现](13-谱聚类的原理及实现.ipynb)  
+14. [基于自表达性的深度子空间聚类](14-基于自表达性的深度子空间聚类.ipynb)
 
 # 教程说明
 大数据时代到来，随着数据的逐步开放，数据工作者们或多或少都要接触到时空数据。  
