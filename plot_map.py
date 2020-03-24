@@ -24,7 +24,7 @@ def num2deg(xtile, ytile, zoom):
 
 
 
-def getImageCluster( lon_deg,lat_deg,   delta_long, delta_lat,zoom,style,apikey = '',access_token = '',styleid = 'cjrewwj3l2dwt2tptkiu09scd'):
+def getImageCluster( lon_deg,lat_deg,   delta_long, delta_lat,zoom,style,printlog,apikey = '',access_token = '',styleid = 'cjrewwj3l2dwt2tptkiu09scd'):
     '''
     apikey - openstreetmap token
     access_token - mapbox token
@@ -62,7 +62,8 @@ def getImageCluster( lon_deg,lat_deg,   delta_long, delta_lat,zoom,style,apikey 
                     Cluster.paste(tile, box=((xtile-xmin)*imgsize ,  (ytile-ymin)*imgsize))
                     t = 10
                 except:
-                    print('Get map tile failed, retry ',t)
+                    if printlog:
+                        print('Get map tile failed, retry ',t)
                     t += 1
         except: 
             print("Couldn't download image")
@@ -84,7 +85,7 @@ def getImageCluster( lon_deg,lat_deg,   delta_long, delta_lat,zoom,style,apikey 
     
     return Cluster
 
-def plot_map(plt,bounds,zoom,style,apikey = '',access_token = '',styleid = 'dark'):
+def plot_map(plt,bounds,zoom,style,printlog = False,apikey = '',access_token = '',styleid = 'dark'):
     '''
     bounds -- Set your plotting boundary [lon1,lat1,lon2,lat2] (wgs1984)
     zoom -- The zoom level of the map
@@ -95,7 +96,7 @@ def plot_map(plt,bounds,zoom,style,apikey = '',access_token = '',styleid = 'dark
     lat1 =  bounds[1]
     lon2 =  bounds[2]
     lat2 =  bounds[3]
-    a = getImageCluster(lon1, lat1, lon2-lon1,  lat2-lat1, zoom,style,apikey = apikey,access_token = access_token, styleid = styleid)
+    a = getImageCluster(lon1, lat1, lon2-lon1,  lat2-lat1, zoom,style,printlog = printlog,apikey = apikey,access_token = access_token, styleid = styleid)
     x1, y1 =deg2num(lat1, lon1, zoom)
     x2, y2 =deg2num(lat2, lon2, zoom)
     x1,y1 = num2deg(x1, y1+1, zoom)
