@@ -145,19 +145,7 @@ def plot_map(plt,bounds,zoom,style,imgsavepath = 'C:\\',printlog = False,apikey 
     x2,y2 = num2deg(x2+1, y2, zoom)
     plt.imshow(np.asarray(a),extent = (y1,y2,x1+0.00,x2+0.00))
 
-def plotcompass(plt,rect = [1, 0.7, 0.05, 0.05]):
-    from shapely.geometry import Polygon
-    import geopandas as gpd
-    compasax = plt.axes(rect)
-    compass = gpd.GeoDataFrame({'color':[(0,0,0),(1,1,1)],'geometry':
-    [Polygon([[0,0],[0,2],[1,-1]]),
-    Polygon([[0,0],[0,2],[-1,-1]])]})
-    compass.plot(ax= compasax, edgecolor= (0,0,0,1),facecolor = compass['color'],lw = 0.6)
-    plt.annotate('N',size = 7,xy=[0,2.1], xytext=(-3,2.5), textcoords='offset points')
-    plt.axis('off')
-	
-
-def plotscale(ax,bounds,textsize = 8,accuracy = 'auto',rect=[0.1,0.1]):
+def plotscale(ax,bounds,textsize = 8,compasssize = 1,accuracy = 'auto',rect=[0.1,0.1]):
     
     #栅格化代码
     import math
@@ -194,3 +182,12 @@ def plotscale(ax,bounds,textsize = 8,accuracy = 'auto',rect=[0.1,0.1]):
     ax.annotate(str(int(4*accuracy/1000)),size = textsize,xy=(alon+4*deltaLon,alat+deltaLon*0.2), xytext=(-textsize*3/5,textsize/1.5), textcoords='offset points')
     ax.annotate(str(int(8*accuracy/1000)),size = textsize,xy=(alon+8*deltaLon,alat+deltaLon*0.2), xytext=(-textsize*3/5,textsize/1.5), textcoords='offset points')
     ax.annotate('KM',size = textsize,xy=(alon+8*deltaLon,alat+deltaLon*0.1), xytext=(textsize*2/5,-textsize/5), textcoords='offset points')
+    
+    #加指北针
+    deltaLon = compasssize*deltaLon
+    alon = alon-deltaLon
+    compass = gpd.GeoDataFrame({'color':[(0,0,0),(1,1,1)],'geometry':
+    [Polygon([[alon,alat],[alon,alat+deltaLon],[alon+1/2*deltaLon,alat-1/2*deltaLon]]),
+    Polygon([[alon,alat],[alon,alat+deltaLon],[alon-1/2*deltaLon,alat-1/2*deltaLon]])]})
+    compass.plot(ax= ax, edgecolor= (0,0,0,1),facecolor = compass['color'],lw = 0.6)
+    ax.annotate('N',size = textsize,xy=[alon,alat+deltaLon], xytext=(-textsize*2/5,textsize/2), textcoords='offset points')
