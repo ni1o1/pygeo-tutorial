@@ -13,21 +13,25 @@
 4. 打开教程，enjoy！
 
 # 教程目录
-
+## 基础的数据处理
 1. [出租车数据的基础处理，由gps生成OD（pandas）](1-出租车数据的基础处理，由gps生成OD（pandas）.ipynb)  
 2. [出租车数据的集计与基础图表绘制（matplotlib）](2-出租车数据的集计与基础图表绘制（matplotlib）.ipynb)
 3. [出租车数据的地理信息处理（geopandas）](3-出租车数据的地理信息处理（geopandas）.ipynb)  
 4. [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](4-基于出租车GPS的OD期望线绘制与底图添加（plot_map）.ipynb)  
 5. [绘制数据分布的散点图和热力图（contourf）](5-绘制数据分布的散点图和热力图（contourf）.ipynb)  
 6. [结构化数据的存储及处理的思维训练(理论课)](6-结构化数据的存储及处理的思维训练(理论课).ipynb)  
+## 用python实现GIS处理
+还在考虑怎么编号.[轨道客流可视化！shapely初探](轨道客流可视化！shapely初探.ipynb)  
+## 爬虫
 7. [爬虫爬API抓取行政区划（urllib）](7-爬虫爬API抓取行政区划（urllib）.ipynb)  
 8. [抓抓抓包！用百度迁徙数据计算人口恢复率](8-抓抓抓包！用百度迁徙数据计算人口恢复率.ipynb)  
+## 可视化
 9. [基于folium的可交互地图可视化(folium)](9-基于folium的可交互地图可视化(folium).ipynb)  
 10. [基于pyecharts的可交互可视化(pyecharts)](10-基于pyecharts的可交互可视化(pyecharts).ipynb)  
+## 项目
 11-1. [实战项目：怎么当一个优秀的出租车手-1](11-实战项目：怎么当一个优秀的出租车手-1.ipynb)  
 11-2. [实战项目：怎么当一个优秀的出租车手-2](11-实战项目：怎么当一个优秀的出租车手-2.ipynb)  
-
-学术课：  
+## 学术课  
 12. [主成分分析PCA的原理、实现、缺陷及改进](12-主成分分析PCA的原理、实现、缺陷及改进.ipynb)  
 13. [谱聚类的原理及实现](13-谱聚类的原理及实现.ipynb)  
 14. [基于自表达性的深度子空间聚类](14-基于自表达性的深度子空间聚类.ipynb)
@@ -54,6 +58,10 @@
 本教程的可视化效果图展示  
 <img src="resource/map-example.png" style="width:600px">
 <img src="resource/heatmap-example.png" style="width:600px">
+<img src="resource/metro-example.png" style="width:600px">
+<img src="resource/boxplot-example.png" style="width:600px">
+<img src="resource/lineplot-example.png" style="width:600px">
+
 
 # 使用数据
 本教程的数据来源（公开数据集可直接下载）：  
