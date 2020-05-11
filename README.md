@@ -84,3 +84,6 @@ Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1
 2. [udacity的数据分析入门课程](https://classroom.udacity.com/courses/ud170/)
 3. [coursera的机器学习课程](https://www.coursera.org/learn/machine-learning)
 4. [莫烦PYTHON的pytorch动态神经网络课程](https://morvanzhou.github.io/tutorials/machine-learning/torch/)
+
+# 友情链接
+[小旭学长的Echarts作品](https://gallery.echartsjs.com/explore.html?u=bd-167860219&type=work#sort=rank~timeframe=all~author=all)
