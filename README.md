@@ -30,6 +30,7 @@
 ## 可视化
 1. [基于folium的可交互地图可视化(folium)](9-基于folium的可交互地图可视化(folium).ipynb)  
 2. [基于pyecharts的可交互可视化(pyecharts)](10-基于pyecharts的可交互可视化(pyecharts).ipynb)  
+3. [利用pandana可视化城市设施的可达性_by_fff2zrx](15.利用pandana可视化城市设施的可达性.ipynb)
 ## 项目
 1. [实战项目：怎么当一个优秀的出租车手-1](11-实战项目：怎么当一个优秀的出租车手-1.ipynb)  
 2. [实战项目：怎么当一个优秀的出租车手-2](11-实战项目：怎么当一个优秀的出租车手-2.ipynb)  
@@ -88,3 +89,7 @@ Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1
 
 # 友情链接
 [小旭学长的Echarts作品](https://gallery.echartsjs.com/explore.html?u=bd-167860219&type=work#sort=rank~timeframe=all~author=all)
+
+# 贡献者
+<img src="https://avatars0.githubusercontent.com/u/53589767?s=60&amp;v=4" class="avatar avatar-user" alt="ni1o1" width="38" height="38">
+<img src="https://avatars3.githubusercontent.com/u/49057245?s=60&amp;v=4" class="avatar avatar-user" alt="fff2zrx" width="38" height="38">
