@@ -23,6 +23,8 @@
 ## 用python实现GIS处理
 1. [轨道客流可视化！shapely初探](轨道客流可视化！shapely初探.ipynb)  
 2. [用道路切分地块！shapely的线转面处理！](用道路切分地块！shapely的线转面处理！.ipynb)
+3. [利用osmnx与plot_map计算并可视化街道方向_by_YuanLianggg](16-利用osmnx与plot_map计算并可视化街道方向.ipynb)
+
 ## 爬虫
 1. [爬虫爬API抓取行政区划（urllib）](7-爬虫爬API抓取行政区划（urllib）.ipynb)  
 2. [抓抓抓包！用百度迁徙数据计算人口恢复率](8-抓抓抓包！用百度迁徙数据计算人口恢复率.ipynb)  
@@ -94,3 +96,4 @@ Taxi ID, Time, Latitude, Longitude, Occupancy Status, Speed; Occupancy Status: 1
 # 贡献者
 <h3 class="border-bottom p-2 lh-condensed"><a data-hovercard-type="user" data-hovercard-url="/users/ni1o1/hovercard" href="/ni1o1" class="d-inline-block mr-2 float-left"><img src="https://avatars0.githubusercontent.com/u/53589767?s=60&amp;v=4" class="avatar avatar-user" alt="ni1o1" width="38" height="38"></a><a data-hovercard-type="user" data-hovercard-url="/users/ni1o1/hovercard" class="text-normal" href="https://github.com/ni1o1">ni1o1</a></h3>
 <h3 class="border-bottom p-2 lh-condensed"><a data-hovercard-type="user" data-hovercard-url="/users/fff2zrx/hovercard" href="/fff2zrx" class="d-inline-block mr-2 float-left"><img src="https://avatars3.githubusercontent.com/u/49057245?s=60&amp;v=4" class="avatar avatar-user" alt="fff2zrx" width="38" height="38"></a><a data-hovercard-type="user" data-hovercard-url="/users/fff2zrx/hovercard" class="text-normal" href="https://github.com/fff2zrx">fff2zrx</a></h3>
+<h3 class="border-bottom p-2 lh-condensed"><a data-hovercard-type="user" data-hovercard-url="/users/YuanLianggg/hovercard" href="/YuanLianggg" class="d-inline-block mr-2 float-left"><img src="https://avatars3.githubusercontent.com/u/67161516?s=60&amp;v=4" class="avatar avatar-user" alt="YuanLianggg" width="38" height="38"></a><span class="f5 text-normal text-gray-light float-right">#2</span><a data-hovercard-type="user" data-hovercard-url="/users/YuanLianggg/hovercard" class="text-normal" href="/YuanLianggg">YuanLianggg</a></h3>
