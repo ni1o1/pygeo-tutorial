@@ -1,9 +1,9 @@
 本教程的b站视频地址：https://www.bilibili.com/video/BV1A5411a7xz  
 本教程的github地址：https://github.com/ni1o1/pygeo-tutorial  
 本教程的gitee地址(国内访问快)：https://gitee.com/ni1o1/pygeo-tutorial  
-由于网速或者各种问题，网页打开本教程可能会出现图片或文件显示不能，因此建议各位：
+由于网速或者各种问题，在国内访问github打开本教程可能会出现图片或文件显示不能，可以尝试以下方法：
 
-1. 尝试使用[这个网页](https://nbviewer.jupyter.org/)将notebook对应的url链接拷贝进去后即可便捷学习代码
+1. 尝试使用[这个网页](https://nbviewer.jupyter.org/)将notebook对应的url链接拷贝进去后即可便捷学习代码（只支持github的notebook链接）
 2. 下载教程到本地后用jupyter notebook打开教程观看  
 
 # 如何使用本教程
