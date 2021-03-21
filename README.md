@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 [English](README%20-%20en.md)  
 本教程的b站视频地址：https://www.bilibili.com/video/BV1A5411a7xz  
 本教程的github地址：https://github.com/ni1o1/pygeo-tutorial  
@@ -17,33 +15,33 @@
 # 教程目录
 ## 基础的数据处理
 1. [出租车数据的基础处理，由gps生成OD（pandas）](1-taxigps_to_od.ipynb)  
-2. [出租车数据的集计与基础图表绘制（matplotlib）](2-出租车数据的集计与基础图表绘制（matplotlib）.ipynb)
-3. [出租车数据的地理信息处理（geopandas）](3-出租车数据的地理信息处理（geopandas）.ipynb)  
-4. [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](4-基于出租车GPS的OD期望线绘制与底图添加（plot_map）.ipynb)  
-5. [绘制数据分布的散点图和热力图（contourf）](5-绘制数据分布的散点图和热力图（contourf）.ipynb)  
-6. [结构化数据的存储及处理的思维训练(理论课)](6-结构化数据的存储及处理的思维训练(理论课).ipynb)  
+2. [出租车数据的集计与基础图表绘制（matplotlib）](2-.ipynb)
+3. [出租车数据的地理信息处理（geopandas）](3-.ipynb)  
+4. [基于出租车GPS的OD期望线绘制与底图添加（plot_map）](4-.ipynb)  
+5. [绘制数据分布的散点图和热力图（contourf）](5-.ipynb)  
+6. [结构化数据的存储及处理的思维训练(理论课)](6-.ipynb)  
 ## 用python实现GIS处理
 1. [轨道客流可视化！shapely初探](轨道客流可视化！shapely初探.ipynb)  
 2. [用道路切分地块！shapely的线转面处理！](用道路切分地块！shapely的线转面处理！.ipynb)
 3. [利用osmnx与plot_map计算并可视化街道方向_by_YuanLianggg](16-利用osmnx与plot_map计算并可视化街道方向.ipynb)
 
 ## 爬虫
-1. [爬虫爬API抓取行政区划（urllib）](7-爬虫爬API抓取行政区划（urllib）.ipynb)  
-2. [抓抓抓包！用百度迁徙数据计算人口恢复率](8-抓抓抓包！用百度迁徙数据计算人口恢复率.ipynb)  
+1. [爬虫爬API抓取行政区划（urllib）](7-.ipynb)  
+2. [抓抓抓包！用百度迁徙数据计算人口恢复率](8-.ipynb)  
 3. [抓微博！微博评论关系可视化(微博api)](抓微博!微博评论关系可视化.ipynb)
 ## 可视化
-1. [基于folium的可交互地图可视化(folium)](9-基于folium的可交互地图可视化(folium).ipynb)  
-2. [基于pyecharts的可交互可视化(pyecharts)](10-基于pyecharts的可交互可视化(pyecharts).ipynb)  
-3. [利用pandana可视化城市设施的可达性_by_fff2zrx](15.利用pandana可视化城市设施的可达性.ipynb)  
+1. [基于folium的可交互地图可视化(folium)](9-.ipynb)  
+2. [基于pyecharts的可交互可视化(pyecharts)](10-.ipynb)  
+3. [利用pandana可视化城市设施的可达性_by_fff2zrx](15-.ipynb)  
 4. [好看又高大上的可视化pydeck入门](pydeck-getstart.ipynb)  
 ## 项目
-1. [实战项目：怎么当一个优秀的出租车手-1](11-实战项目：怎么当一个优秀的出租车手-1.ipynb)  
-2. [实战项目：怎么当一个优秀的出租车手-2](11-实战项目：怎么当一个优秀的出租车手-2.ipynb)  
+1. [实战项目：怎么当一个优秀的出租车手-1](11-1.ipynb)  
+2. [实战项目：怎么当一个优秀的出租车手-2](11-2.ipynb)  
 ## 学术课  
-1. [主成分分析PCA的原理、实现、缺陷及改进](12-主成分分析PCA的原理、实现、缺陷及改进.ipynb)  
-2. [谱聚类的原理及实现](13-谱聚类的原理及实现.ipynb)  
-3. [基于自表达性的深度子空间聚类](14-基于自表达性的深度子空间聚类.ipynb)  
-4. [社区发现！Fast unfolding算法分析出租车社区](社区发现！Fastunfolding算法分析出租车社区.ipynb)
+1. [主成分分析PCA的原理、实现、缺陷及改进](12-.ipynb)  
+2. [谱聚类的原理及实现](13-.ipynb)  
+3. [基于自表达性的深度子空间聚类](14-.ipynb)  
+4. [社区发现！Fast unfolding算法分析出租车社区](Fastunfolding.ipynb)
 
 
 # 教程说明
@@ -51,7 +49,7 @@
 >小旭学长曾经说：The data is data since it's data.  
 
 是的！数据处理是一门艺术！在处理时空数据的时候，你不仅要数据处理，还需要会GIS，最重要的它是一门艺术，要用你的审美，要出很好看的可视化图！  
-  
+
 以前，我要用sql数据库处理数据，导出到excel画图表，再导出到arcgis出图，一套流程下来得开好几个软件，工作效率极低。  
 
 >上次老师跟我说：小旭啊，我们这个项目你给我出800张图吧，我这周五就要。这个其实画出来也没什么用，主要是想放我们项目文本的附录里显示我们的工作量  
@@ -60,11 +58,11 @@
 
 
 现在，python出现了，有了python里面的pandas，geopandas，matplotlib包，只需要用python就能实现数据的批量计算，批量出gis图等等。  
-  
+
 哇！太棒了！简直是读研、读博、设计院画图、数据分析、闲着没事、居家旅行时候都必须会的技能，别说800张图了，电脑空间有多少我就能生成多少图，包您满意
 
 通过本教程，你将从头开始，会学到一些时空数据的处理技巧，用python进行数据清洗，数据集计，数据整合，可视化！教程的后半段介绍了几个常用的python可视化包，最后是实战项目  
-  
+
 本教程的可视化效果图展示  
 <img src="resource/map-example.png" style="width:600px">
 <img src="resource/heatmap-example.png" style="width:600px">
